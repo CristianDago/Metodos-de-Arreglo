@@ -1,0 +1,113 @@
+
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+
+h1 {
+    color:#197642;
+    text-transform: uppercase;
+}
+
+
+ul{
+
+    list-style: none;
+}
+
+li{
+    padding: 5px 0px;
+}
+
+hr.solid {
+    border-top: 1px solid #cdcdcd;
+  }
+
+.DatosTareas {
+
+    
+display: flex;
+
+}
+
+.Datos-01 {
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin: 15px 2px;
+    padding: 15px;
+}
+
+.Datos-02 {
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin: 15px 2px;
+    padding: 15px;
+}
+
+.tareas {
+    background-color: #f5f5f5;
+    padding:20px;
+    border-radius: 20px;
+}
+
+input {
+    width: 99.5%;
+    border-radius:5px;
+    height: 25px;
+    border:none;
+}
+
+button.boton-verde {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #197642;
+    border: none;
+    color:#ffffff;
+    border-radius: 5px;
+}
+
+
+button.boton-verde:hover {
+    background-color: #1d9350;
+}
+
+button.boton-azul {
+    height: 35px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #2a0982;
+    border: none;
+    color:#ffffff;
+    border-radius: 5px;
+}
+
+
+button.boton-azul:hover {
+    background-color:  #5a21f7;
+}
+
+
+button.boton-rojo {
+
+    background-color: red;
+    color:#ffffff;
+    border:none;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+
+}
+
+
+table {
+
+   width: 100%;
+   text-align: center;
+}
+
+th {
+
+    width: 25%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Arreglo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+ <section class="tareas">
+    <h1>Todo List</h1>
+    <hr class="solid">
+    <input id="nuevaTarea"> 
+    <button id="agregarTarea" class="boton-verde">Agregar Tarea</button>
+    <button id="actualizarTarea" class="boton-azul">Actualizar Tareas</button>
+        <div class="DatosTareas">
+            <div class="Datos-01">
+                <h4>Total : <span id="totalTareas"></span></h4>
+                <h4>Realizadas : <span id="totalRealizadas">0</span></h4>
+            </div>
+            <div class="Datos-02">
+                <table>
+                    <thead>
+                        <tr>
+                        <th>ID</th>
+                        <th>TAREA</th>
+                        <th>Realizada</th>
+                        <th>Eliminar</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tareas"></tbody>
+                </table> 
+            </div>
+        </div>
+</section>  
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
